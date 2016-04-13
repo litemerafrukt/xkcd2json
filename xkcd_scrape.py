@@ -36,13 +36,13 @@ Usage:
   {program} [options] <output_json_file>
 
   This program builds a json file from some
-  random xkcd cartons. Image are base64 encoded.
+  random xkcd cartoons. Image are base64 encoded.
 
 Options:
   -h, --help      display this help message.
   --low=<nr>      lowest xkcd to fetch, default {min}.
   --high=<nr>     highest xkcd to fetch, default {max}.
-  --cartoons=<nr> nr of cartons to fetch, default {nr}.
+  --cartoons=<nr> nr of cartoons to fetch, default {nr}.
 """.format(program=PROGRAM, author=AUTHOR, version=VERSION, min=MIN_RANDOM, max=MAX_RANDOM, nr=NR_OF_CARTOONS)
 
 
