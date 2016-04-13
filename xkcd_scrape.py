@@ -33,7 +33,7 @@ By {author}
 Version {version}
 
 Usage:
-  {program} [options] <output_image_file>
+  {program} [options] <output_json_file>
 
   This program builds a json file from some
   random xkcd cartons. Image are base64 encoded.
@@ -117,7 +117,7 @@ def main(argv):
 
     except Exception as err:
         print(err)
-        # Prints the callstack, good for debugging, comment out for production
+        # Prints the callstack, good for debugging.
         traceback.print_exception(Exception, err, None)
         # print("\n---\n")
         # print_help(EXIT_FAIL)
