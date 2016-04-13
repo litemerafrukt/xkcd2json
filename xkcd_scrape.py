@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Get a cartoon strip from xkcd.
+Get cartoons from xkcd, build json.
 Url to xkcd hardcoded.
 
 Exit with 0 on success, 1 on fail
