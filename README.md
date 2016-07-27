@@ -3,7 +3,7 @@ Script that scrapes random xkcd comics and creates a json file with base64 encod
 
 I did this script just to have some json to work on for a college course. Do what you want with it, just remember to be nice to the xkcd server :)
 
-Please reade more about how you might use the work from xkcd on: xkcd.com.
+Please reade more about how you might use the work from xkcd on: [xkcd.com](https://xkcd.com).
 
 Thank you, Randall Munroe for, your funny comics!
 
